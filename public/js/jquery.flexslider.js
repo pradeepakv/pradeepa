@@ -148,7 +148,7 @@
         // API: start() Callback
         setTimeout(function(){
           slider.vars.start(slider);
-        }, 200);
+        }, 12);
       },
       asNav: {
         setup: function() {
@@ -830,7 +830,7 @@
 
       if (slider.transitions) {
         target = (vertical) ? "translate3d(0," + target + ",0)" : "translate3d(" + target + ",0,0)";
-        dur = (dur !== undefined) ? (dur/1000) + "s" : "0s";
+        dur = (dur !== undefined) ? (dur/100) + "s" : "0s";
         slider.container.css("-" + slider.pfx + "-transition-duration", dur);
       }
 
@@ -874,7 +874,7 @@
             slider.doMath();
             slider.viewport.height(slider.h);
             slider.setProps(sliderOffset * slider.h, "init");
-          }, (type === "init") ? 100 : 0);
+          }, (type === "init") ? 10 : 0);
         } else {
           slider.container.width((slider.count + slider.cloneCount) * 200 + "%");
           slider.setProps(sliderOffset * slider.computedW, "init");
@@ -883,7 +883,7 @@
             slider.newSlides.css({"width": slider.computedW, "float": "left", "display": "block"});
             // SMOOTH HEIGHT:
             if (slider.vars.smoothHeight) methods.smoothHeight();
-          }, (type === "init") ? 100 : 0);
+          }, (type === "init") ? 10 : 0);
         }
       } else { // FADE:
         slider.slides.css({"width": "100%", "float": "left", "marginRight": "-100%", "position": "relative"});

@@ -12,7 +12,7 @@
 
     setTimeout(function() {
 	   $('h1.responsive-headline').fitText(1, { minFontSize: '10px', maxFontSize: '40px' });
-	 }, 100);
+	 }, 10);
 
 
 /*----------------------------------------------------*/
