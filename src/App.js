@@ -26,10 +26,10 @@ class App extends Component {
 
   getResumeData(){
     $.ajax({
-      url:'/resumeData.json',
+      url:'./resumeData.json',
       type:"GET",
       dataType:"json",
-      data: App, // <--- HERE
+      //data: App, // <--- HERE
       cache: false,
       success: function(data){
         this.setState({resumeData: data});

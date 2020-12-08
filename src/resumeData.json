@@ -1,0 +1,164 @@
+{
+  "main": {
+    "name":"Pradeepa Kathiresan",
+    "occupation":"Software Engineer",
+    "description":"Leading Software Developer and Engineer with 8 years of work experience leading developing teams in different settings (including client location). I enjoy coding, testing, and integration. Seeking anew challenges and opportunities to leverage. I am an experienced Certified Safe Agile Practitioner, having successfully worked with service-oriented (SOA) architectures and web services. Holds a BE in CS with many recent study certifications.",
+    "image":"profilepic.jpg",
+    "bio":"Hi! I'm Pradeepa.  I am always looking for something that scare or interests me to learn. I had created so many CV's of mine, finally ended up with a plan to create a portfolio website with any of the trending technologies. I have a list of ‘Wish-To-Do’ things in various new technologies. I like to use or feel most comfortable with Front End technologies. I inspire myself for my hardwork, and all my co-workers for their unique qualities.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "pradeepa.july10@gmail.com",
+    "phone": "***-***-***",
+    "address":{
+      "street":"Bannerghata main road",
+      "city":"bangalore",
+      "state":"karnataka",
+      "zip": "560076"
+    },
+    "website": "http://www.pradeepa-kathiresan.com",
+    "resumedownload":"http://pradeepa-kathiresan.com",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/pradeepa.kathir.7",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/kvpradeepa",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"google-plus",
+        "url":"http://googleplus.com/pradeepakv",
+        "className":"fa fa-google-plus"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/pradeepa-kathiresan-96135864/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/pradeepa.kv/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/pradeepakv",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"skype",
+        "url":"http://skype.com",
+        "className":"fa fa-skype"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"I have experience in various technologies including, Front-end, Middleware and Backend",
+    "education":[
+      {
+        "school":"University?",
+        "degree":"Masters in Systems Management",
+        "graduated":"April 2016",
+        "description":"I had done my masters in distance, It was quite challenging for me, I aquired management skills which helped me communicate in a more efficient way."
+      },
+      {
+        "school":"Engineering",
+        "degree":"BE - Computer Science and Engineering",
+        "graduated":"April 2011",
+        "description":"I was studious, secured 81%, skills learned helped me in my career."
+      }
+    ],
+    "work":[
+      {
+        "company":"Accenture ",
+        "title":"Senior Analyst ",
+        "years":"Jan 2018 - present",
+        "description":"I got opportunity to work in various new technology including API and Adapter developments. Learning with Mandatory trainings are vast here."
+      },
+      {
+        "company":"Infosys 2016 - 2018",
+        "title":"Technology Analyst",
+        "years":"Jan 2016 - Jan 2018",
+        "description":"I had an opportunity to scale up myself and identify my area of strength and interests. Learning is vast @Infosys."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"90%"
+      },
+      {
+        "name":"Angular",
+        "level":"65%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"HTML5",
+        "level":"90%"
+      },
+      {
+        "name":"VueJs",
+        "level":"50%"
+      },
+      {
+        "name":"Javascript",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"PHP5 CRUD",
+        "category":"Performing CRUD using PHP5",
+        "image":"php5-CRUD.png",
+        "url":"https://www.pradeepaBlog.com"
+      },
+      {
+        "title":"NodeJS Application",
+        "category":"creating microservices",
+        "image":"Microservices-nodejs.png",
+        "url":"http://www.pradeepa.com"
+      },
+      {
+        "title":"Java netflix conductor",
+        "category":"Technical support",
+        "image":"Java-NetflixConductor.png",
+        "url":"http://www.pradeepa.com/ngLogin.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"My-CV-ReactJS.jpg",
+        "url":"http://www.pradeepa-kathiresan.com"
+      },
+      {
+        "title":"Building API",
+        "category":"Node-red Middleware project.",
+        "image":"node-red-iot.png",
+        "url":"http://www.node-api.com"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"People say to me that I am friendly in nature and understanding. Few of the Projects I had worked with gave me encouraging feedback for my work especially in front-end ",
+        "user":"-Balaji, Solution Architect"
+      },
+      {
+        "text":"  will be one of the inspiring personality!",
+        "user":"-Nithya"
+      }
+    ]
+  }
+}
