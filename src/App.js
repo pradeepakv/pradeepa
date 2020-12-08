@@ -9,6 +9,7 @@ import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
+import resumeData from './resumeData.json';
 
 class App extends Component {
 
@@ -29,9 +30,10 @@ class App extends Component {
       url:'./resumeData.json',
       type:"GET",
       dataType:"json",
-      //data: App, // <--- HERE
+      data: resumeData, // <--- HERE
       cache: false,
       success: function(data){
+        console.log("data=="+data);
         this.setState({resumeData: data});
       }.bind(this),
       error: function(xhr, status, err){
